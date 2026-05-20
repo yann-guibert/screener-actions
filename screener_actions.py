@@ -4,7 +4,7 @@ from datetime import datetime
 import os 
 import time
 
-CLE_API= "OXSNORUR8QROE37T"
+CLE_API= "CLE_API"
 
 def get_prix_action(symbole): 
     url = f"https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={symbole}&apikey={CLE_API}"
